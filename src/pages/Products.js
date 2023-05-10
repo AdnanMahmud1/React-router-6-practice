@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import products from '../data'
-import SingleProduct from "./SingleProduct";
+
 
 const Products = () => {
   return (
     <>
       <section className='section'>
-        <h2>products</h2>
+
         <div className="products">
           {products.map((product)=>{
             return <article key={product.id}>
